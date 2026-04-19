@@ -1,0 +1,534 @@
+[
+  {
+    "timestamp": "2026-04-19T04:38:47.132540Z",
+    "query": "I have MTHFR C677T variant - how much folic acid should I take?",
+    "candidates_retrieved": 30,
+    "after_dedup": 15,
+    "contradictions_detected": true,
+    "contradiction_types": [
+      "temporal"
+    ],
+    "contradiction_confidence": 0.657,
+    "top3_sources": [
+      {
+        "type": "documentation",
+        "title": "Folate/Methylfolate Dosing for MTHFR Variants (v2.1)",
+        "date": "2024-01-10"
+      },
+      {
+        "type": "forum",
+        "title": "MTHFR CT — how much folic acid?",
+        "date": "2022-08-15"
+      },
+      {
+        "type": "blog",
+        "title": "The Science of MTHFR and Folate Metabolism",
+        "date": "2024-03-15"
+      },
+      {
+        "type": "documentation",
+        "title": "Interpreting MTHFR Variants",
+        "date": "2024-02-01"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 34815
+  },
+  {
+    "timestamp": "2026-04-19T04:39:39.477085Z",
+    "query": "What CoQ10 dosage is recommended for egg quality?",
+    "candidates_retrieved": 30,
+    "after_dedup": 16,
+    "contradictions_detected": false,
+    "contradiction_types": [
+      "version"
+    ],
+    "contradiction_confidence": 0.0,
+    "top3_sources": [
+      {
+        "type": "forum",
+        "title": "CoQ10 dose — is 200mg the standard recommendation?",
+        "date": "2022-11-08"
+      },
+      {
+        "type": "blog",
+        "title": "CoQ10 and Egg Quality: The Mitochondrial Connection",
+        "date": "2022-06-10"
+      },
+      {
+        "type": "documentation",
+        "title": "Vitamin D, Iron and CoQ10 Reference Ranges",
+        "date": "2024-02-15"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 52342
+  },
+  {
+    "timestamp": "2026-04-19T04:40:12.564746Z",
+    "query": "How do I sync my biomarker data with the FertiliQ app?",
+    "candidates_retrieved": 30,
+    "after_dedup": 20,
+    "contradictions_detected": false,
+    "contradiction_types": [
+      "version",
+      "temporal"
+    ],
+    "contradiction_confidence": 0.0,
+    "top3_sources": [
+      {
+        "type": "documentation",
+        "title": "Biomarker Sync API Endpoint",
+        "date": "2024-04-01"
+      },
+      {
+        "type": "forum",
+        "title": "LabCorp biomarker sync not working — 2 days waiting",
+        "date": "2024-07-03"
+      },
+      {
+        "type": "forum",
+        "title": "Oura ring sync error — invalid token fix",
+        "date": "2024-09-05"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 33086
+  },
+  {
+    "timestamp": "2026-04-19T04:40:48.970084Z",
+    "query": "What does a low AMH level mean for my fertility?",
+    "candidates_retrieved": 30,
+    "after_dedup": 19,
+    "contradictions_detected": false,
+    "contradiction_types": [
+      "temporal",
+      "temporal"
+    ],
+    "contradiction_confidence": 0.0,
+    "top3_sources": [
+      {
+        "type": "blog",
+        "title": "AMH Levels and Ovarian Reserve: A Complete Interpretation Guide",
+        "date": "2024-05-20"
+      },
+      {
+        "type": "documentation",
+        "title": "AMH and Ovarian Reserve",
+        "date": "2024-02-15"
+      },
+      {
+        "type": "blog",
+        "title": "AMH Levels and Ovarian Reserve: A Complete Interpretation Guide",
+        "date": "2024-05-20"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 36404
+  },
+  {
+    "timestamp": "2026-04-19T04:41:19.397503Z",
+    "query": "When is the best time to have sex to maximize conception chances?",
+    "candidates_retrieved": 30,
+    "after_dedup": 18,
+    "contradictions_detected": false,
+    "contradiction_types": [
+      "temporal"
+    ],
+    "contradiction_confidence": 0.0,
+    "top3_sources": [
+      {
+        "type": "blog",
+        "title": "Precision Conception Timing: Beyond the OPK",
+        "date": "2024-09-01"
+      },
+      {
+        "type": "forum",
+        "title": "Best timing for sex — 30-day cycle, fertile window Days 12-18",
+        "date": "2024-06-10"
+      },
+      {
+        "type": "documentation",
+        "title": "Investigation Roadmap After 6+ Months",
+        "date": "2024-03-20"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 30425
+  },
+  {
+    "timestamp": "2026-04-19T04:41:56.533412Z",
+    "query": "My vitamin D is 18 ng/mL, what should I do?",
+    "candidates_retrieved": 30,
+    "after_dedup": 19,
+    "contradictions_detected": false,
+    "contradiction_types": [
+      "version",
+      "temporal"
+    ],
+    "contradiction_confidence": 0.0,
+    "top3_sources": [
+      {
+        "type": "forum",
+        "title": "Vitamin D at 18 ng/mL — what protocol to follow?",
+        "date": "2024-03-15"
+      },
+      {
+        "type": "documentation",
+        "title": "Vitamin D, Iron and CoQ10 Reference Ranges",
+        "date": "2024-02-15"
+      },
+      {
+        "type": "blog",
+        "title": "Vitamin D and Fertility: Why 'Sufficient' Isn't Enough",
+        "date": "2024-06-05"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 37134
+  },
+  {
+    "timestamp": "2026-04-19T04:42:56.919470Z",
+    "query": "What foods should I eat during the follicular phase?",
+    "candidates_retrieved": 30,
+    "after_dedup": 17,
+    "contradictions_detected": true,
+    "contradiction_types": [
+      "temporal",
+      "temporal"
+    ],
+    "contradiction_confidence": 0.547,
+    "top3_sources": [
+      {
+        "type": "forum",
+        "title": "Follicular phase foods for egg development",
+        "date": "2024-02-28"
+      },
+      {
+        "type": "documentation",
+        "title": "Foundation Fertility Diet",
+        "date": "2024-03-01"
+      },
+      {
+        "type": "forum",
+        "title": "MTHFR CT — how much folic acid?",
+        "date": "2022-08-15"
+      },
+      {
+        "type": "blog",
+        "title": "The Science of MTHFR and Folate Metabolism",
+        "date": "2024-03-15"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 60383
+  },
+  {
+    "timestamp": "2026-04-19T04:43:40.685369Z",
+    "query": "My partner has low sperm motility - what supplements help?",
+    "candidates_retrieved": 30,
+    "after_dedup": 19,
+    "contradictions_detected": false,
+    "contradiction_types": [
+      "version",
+      "temporal"
+    ],
+    "contradiction_confidence": 0.0,
+    "top3_sources": [
+      {
+        "type": "blog",
+        "title": "Male Fertility: Optimising Sperm Quality Through Nutrition and Supplements",
+        "date": "2024-07-15"
+      },
+      {
+        "type": "forum",
+        "title": "Low sperm motility 25% — what supplements help?",
+        "date": "2024-04-02"
+      },
+      {
+        "type": "blog",
+        "title": "Oxidative Stress, Genetic Variants, and Fertility",
+        "date": "2023-11-20"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 43764
+  },
+  {
+    "timestamp": "2026-04-19T04:44:22.970358Z",
+    "query": "Why does my genetic report say I have high oxidative stress risk?",
+    "candidates_retrieved": 30,
+    "after_dedup": 19,
+    "contradictions_detected": false,
+    "contradiction_types": [
+      "temporal"
+    ],
+    "contradiction_confidence": 0.0,
+    "top3_sources": [
+      {
+        "type": "forum",
+        "title": "High oxidative stress risk in genetic report — what does it mean?",
+        "date": "2023-07-14"
+      },
+      {
+        "type": "blog",
+        "title": "Oxidative Stress, Genetic Variants, and Fertility",
+        "date": "2023-11-20"
+      },
+      {
+        "type": "blog",
+        "title": "CoQ10 and Egg Quality: The Mitochondrial Connection",
+        "date": "2022-06-10"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 42282
+  },
+  {
+    "timestamp": "2026-04-19T04:45:11.002205Z",
+    "query": "I've been trying for 8 months, what does FertiliQ recommend I check next?",
+    "candidates_retrieved": 30,
+    "after_dedup": 16,
+    "contradictions_detected": true,
+    "contradiction_types": [
+      "temporal",
+      "version",
+      "temporal"
+    ],
+    "contradiction_confidence": 0.3,
+    "top3_sources": [
+      {
+        "type": "documentation",
+        "title": "Investigation Roadmap After 6+ Months",
+        "date": "2024-03-20"
+      },
+      {
+        "type": "forum",
+        "title": "8 months TTC with in-range results — what to check next?",
+        "date": "2024-08-20"
+      },
+      {
+        "type": "forum",
+        "title": "Methylation pathway concern flag — what to do?",
+        "date": "2024-12-03"
+      },
+      {
+        "type": "blog",
+        "title": "Precision Conception Timing: Beyond the OPK",
+        "date": "2024-09-01"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 48029
+  },
+  {
+    "timestamp": "2026-04-19T05:44:23.903211Z",
+    "query": "What does a low AMH level mean for my fertility",
+    "candidates_retrieved": 30,
+    "after_dedup": 18,
+    "contradictions_detected": false,
+    "contradiction_types": [
+      "temporal",
+      "temporal"
+    ],
+    "contradiction_confidence": 0.0,
+    "top3_sources": [
+      {
+        "type": "blog",
+        "title": "AMH Levels and Ovarian Reserve: A Complete Interpretation Guide",
+        "date": "2024-05-20"
+      },
+      {
+        "type": "documentation",
+        "title": "AMH and Ovarian Reserve",
+        "date": "2024-02-15"
+      },
+      {
+        "type": "blog",
+        "title": "AMH Levels and Ovarian Reserve: A Complete Interpretation Guide",
+        "date": "2024-05-20"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 38491
+  },
+  {
+    "timestamp": "2026-04-19T05:59:16.050544Z",
+    "query": "I have MTHFR C677T — what should I take?",
+    "candidates_retrieved": 30,
+    "after_dedup": 14,
+    "contradictions_detected": true,
+    "contradiction_types": [
+      "temporal",
+      "temporal",
+      "temporal"
+    ],
+    "contradiction_confidence": 0.657,
+    "top3_sources": [
+      {
+        "type": "forum",
+        "title": "MTHFR CT — how much folic acid?",
+        "date": "2022-08-15"
+      },
+      {
+        "type": "documentation",
+        "title": "Folate/Methylfolate Dosing for MTHFR Variants (v2.1)",
+        "date": "2024-01-10"
+      },
+      {
+        "type": "forum",
+        "title": "MTHFR CT — how much folic acid?",
+        "date": "2022-08-15"
+      },
+      {
+        "type": "blog",
+        "title": "The Science of MTHFR and Folate Metabolism",
+        "date": "2024-03-15"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 44908
+  },
+  {
+    "timestamp": "2026-04-19T06:11:29.479515Z",
+    "query": "I have MTHFR C677T — what should I take?",
+    "candidates_retrieved": 30,
+    "after_dedup": 14,
+    "contradictions_detected": true,
+    "contradiction_types": [
+      "version",
+      "temporal",
+      "temporal"
+    ],
+    "contradiction_confidence": 0.657,
+    "top3_sources": [
+      {
+        "type": "documentation",
+        "title": "Folate/Methylfolate Dosing for MTHFR Variants (v2.1)",
+        "date": "2024-01-10"
+      },
+      {
+        "type": "forum",
+        "title": "MTHFR CT — how much folic acid?",
+        "date": "2022-08-15"
+      },
+      {
+        "type": "forum",
+        "title": "MTHFR CT — how much folic acid?",
+        "date": "2022-08-15"
+      },
+      {
+        "type": "blog",
+        "title": "The Science of MTHFR and Folate Metabolism",
+        "date": "2024-03-15"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 43716
+  },
+  {
+    "timestamp": "2026-04-19T06:17:29.673376Z",
+    "query": "I have MTHFR C677T — what should I take?",
+    "candidates_retrieved": 30,
+    "after_dedup": 14,
+    "contradictions_detected": true,
+    "contradiction_types": [
+      "temporal"
+    ],
+    "contradiction_confidence": 0.657,
+    "top3_sources": [
+      {
+        "type": "forum",
+        "title": "MTHFR CT — how much folic acid?",
+        "date": "2022-08-15"
+      },
+      {
+        "type": "documentation",
+        "title": "Folate/Methylfolate Dosing for MTHFR Variants (v2.1)",
+        "date": "2024-01-10"
+      },
+      {
+        "type": "blog",
+        "title": "The Science of MTHFR and Folate Metabolism",
+        "date": "2024-03-15"
+      },
+      {
+        "type": "forum",
+        "title": "Methylation pathway concern flag — what to do?",
+        "date": "2024-12-03"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 34621
+  },
+  {
+    "timestamp": "2026-04-19T14:52:05.321316Z",
+    "query": "I have MTHFR C677T — what should I take?",
+    "candidates_retrieved": 30,
+    "after_dedup": 14,
+    "contradictions_detected": true,
+    "contradiction_types": [
+      "temporal"
+    ],
+    "contradiction_confidence": 0.657,
+    "top3_sources": [
+      {
+        "type": "forum",
+        "title": "MTHFR CT — how much folic acid?",
+        "date": "2022-08-15"
+      },
+      {
+        "type": "documentation",
+        "title": "Folate/Methylfolate Dosing for MTHFR Variants (v2.1)",
+        "date": "2024-01-10"
+      },
+      {
+        "type": "blog",
+        "title": "The Science of MTHFR and Folate Metabolism",
+        "date": "2024-03-15"
+      },
+      {
+        "type": "forum",
+        "title": "Methylation pathway concern flag — what to do?",
+        "date": "2024-12-03"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 40799
+  },
+  {
+    "timestamp": "2026-04-19T14:58:03.577167Z",
+    "query": "I have MTHFR C677T — what should I take?",
+    "candidates_retrieved": 30,
+    "after_dedup": 14,
+    "contradictions_detected": true,
+    "contradiction_types": [
+      "version"
+    ],
+    "contradiction_confidence": 0.657,
+    "top3_sources": [
+      {
+        "type": "documentation",
+        "title": "Folate/Methylfolate Dosing for MTHFR Variants (v2.1)",
+        "date": "2024-01-10"
+      },
+      {
+        "type": "forum",
+        "title": "MTHFR CT — how much folic acid?",
+        "date": "2022-08-15"
+      },
+      {
+        "type": "blog",
+        "title": "The Science of MTHFR and Folate Metabolism",
+        "date": "2024-03-15"
+      },
+      {
+        "type": "forum",
+        "title": "Methylation pathway concern flag — what to do?",
+        "date": "2024-12-03"
+      }
+    ],
+    "response_generated": true,
+    "latency_ms": 43024
+  }
+]

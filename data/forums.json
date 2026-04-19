@@ -1,0 +1,222 @@
+[
+  {
+    "id": "forum_001",
+    "content": "Question (2024-02-10, 👍 47 votes): I just got my FertiliQ results back and I'm homozygous for MTHFR C677T (TT genotype). My previous doctor said to just take the standard prenatal with 400 mcg folic acid. FertiliQ is now recommending 800 mcg methylfolate. What's the difference and which should I follow?\n\nAccepted Answer: Great question — this is one of the most common points of confusion after getting MTHFR results. Your doctor's recommendation of 400 mcg folic acid was based on standard preconception guidelines that were written before MTHFR-specific research was widely incorporated into practice. Here's the key difference: standard folic acid (synthetic) requires the MTHFR enzyme to convert it into the active form your body can actually use (5-MTHF / methylfolate). With TT genotype, your MTHFR enzyme has roughly 60–70% reduced activity, meaning a significant portion of synthetic folic acid goes unprocessed. FertiliQ v2.1's recommendation of 800 mcg 5-MTHF (methylfolate) bypasses this conversion step entirely — you're taking the active form directly. This is the current evidence-based approach supported by methylation research. The old 400 mcg folic acid recommendation is outdated for MTHFR homozygous carriers.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-02-10",
+      "title": "MTHFR TT — methylfolate vs folic acid question",
+      "votes": 47,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_002",
+    "content": "Question (2022-08-15, 👍 23 votes): Just got my MTHFR results — I'm C677T heterozygous (CT). My FertiliQ report says something about folate. How much folic acid should I be taking?\n\nAccepted Answer: According to FertiliQ's current guidelines (as of August 2022), the recommendation for all users including those with MTHFR variants is the standard 400 mcg folic acid daily. This aligns with the CDC recommendation for preconception care. Your CT genotype does reduce MTHFR activity somewhat, but the consensus at the time of writing is that 400 mcg is appropriate. Make sure you're taking a quality prenatal vitamin that includes this dose. [Note from moderator 2024: FertiliQ has since updated to v2.1 — for MTHFR carriers the new recommendation is 800 mcg methylfolate, not standard folic acid. This 2022 post reflects outdated guidance.]",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2022-08-15",
+      "title": "MTHFR CT — how much folic acid?",
+      "votes": 23,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_003",
+    "content": "Question (2023-03-20, 👍 18 votes): My MTHFR result is A1298C heterozygous. I've read that some people take higher doses of folic acid. Is 400 mcg enough for me?\n\nAccepted Answer: For A1298C heterozygous, the impact on MTHFR enzyme activity is somewhat lower than C677T (roughly 20–30% reduction vs 30–40%). As of the 2023 FertiliQ guidelines, the recommendation remains 400 mcg folic acid for A1298C heterozygous as a minimum. However, many practitioners are moving toward recommending methylfolate even for A1298C carriers. If you want to be cautious, switching to 400–800 mcg methylfolate is reasonable. The newer FertiliQ v2.1 (2024) has formally updated this to recommend methylfolate for all MTHFR variant carriers, so check the current guidelines.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2023-03-20",
+      "title": "MTHFR A1298C — is 400 mcg folic acid enough?",
+      "votes": 18,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_004",
+    "content": "Question (2024-05-12, 👍 62 votes): What CoQ10 dose is everyone taking? I'm 38 and about to start IVF. I've seen recommendations ranging from 200 mg to 600 mg and I don't know which to follow.\n\nAccepted Answer: The dosing range has genuinely evolved over the past few years. The 200 mg recommendation you've seen is from older studies (pre-2022) and is now considered a minimum dose. For women 35–40 going into IVF, the current FertiliQ v2.1 guideline is 400 mg/day ubiquinol (the reduced, more bioavailable form). At 38, I'd personally go with 400 mg — the evidence for 600 mg is there but mostly for women over 40 or those with very poor ovarian reserve. Start ubiquinol form (not ubiquinone), take with a fatty meal, and ideally begin 3+ months before retrieval. The 200 mg old-school recommendation you've seen is outdated.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-05-12",
+      "title": "CoQ10 dose for IVF prep at 38 — 200mg vs 600mg?",
+      "votes": 62,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_005",
+    "content": "Question (2022-11-08, 👍 14 votes): I saw a study recommending 200 mg CoQ10 for egg quality. Is that the dose FertiliQ recommends too?\n\nAccepted Answer: Yes, as of FertiliQ v1.0 (2022), 200 mg CoQ10 daily is the recommended dose for women over 35 looking to support mitochondrial function in oocytes. This is consistent with the clinical evidence available in 2022. Take it with a meal containing fat for best absorption. Note: As of 2024, FertiliQ has updated to recommend 400–600 mg for women over 35, based on newer RCT data. If you're reading this now, the updated dosing may be more appropriate.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2022-11-08",
+      "title": "CoQ10 dose — is 200mg the standard recommendation?",
+      "votes": 14,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_006",
+    "content": "Question (2024-07-03, 👍 34 votes): My biomarker data isn't syncing from LabCorp. I uploaded my results 2 days ago and they're not showing on my dashboard. Anyone else had this issue?\n\nAccepted Answer: This is a known issue with the LabCorp auto-sync in the current version. Two things to check: (1) Go to Settings → Connected Labs → LabCorp and make sure your LabCorp Patient Portal credentials haven't changed — they auto-expire every 90 days. (2) Try the manual upload option: download your lab PDF from LabCorp Patient Portal and use the FertiliQ 'Upload Lab Report' feature under the Biomarkers tab. The OCR parser supports LabCorp format and usually processes within 10 minutes. If still not working after that, contact support@fertiliq.com with your sync_id from the API response.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-07-03",
+      "title": "LabCorp biomarker sync not working — 2 days waiting",
+      "votes": 34,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_007",
+    "content": "Question (2024-01-22, 👍 29 votes): My AMH came back at 4.2 pmol/L and I'm 32. The lab says this is in the 'normal' range but FertiliQ flagged it as low. Who's right?\n\nAccepted Answer: FertiliQ is right to flag this. Standard lab reference ranges define 'normal' based on the general population, not fertility-optimised thresholds. At 32, an AMH of 4.2 pmol/L puts you in the low-normal to diminished range by fertility clinic standards. The FertiliQ optimal for under 35 is 15–48 pmol/L. An AMH of 4.2 at 32 is more typical of someone in their early 40s. This doesn't mean you can't conceive naturally, but it does mean you shouldn't delay if you're planning conception, and it's worth discussing with a reproductive endocrinologist. DHEA (25–50 mg/day), CoQ10 (400 mg), and aggressive antioxidant support may help with follicular environment.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-01-22",
+      "title": "AMH 4.2 at age 32 — FertiliQ says low, lab says normal?",
+      "votes": 29,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_008",
+    "content": "Question (2024-03-15, 👍 41 votes): My Vitamin D came back at 18 ng/mL. FertiliQ says this is way too low. What should I do?\n\nAccepted Answer: 18 ng/mL is indeed deficient — FertiliQ's fertility-optimal target is 50–70 ng/mL, and you're less than half of the minimum. Here's a practical protocol: Start 5,000 IU Vitamin D3 daily with 100 mcg K2 (MK-7 form). Take with your fattiest meal of the day (fat-soluble vitamin). Retest in 12 weeks. At 18 ng/mL, realistically expect to reach 40–50 ng/mL after 12 weeks of 5,000 IU. You may need to go to 70–80 ng/mL range, which could take 6 months. If you have VDR variants in your FertiliQ report, add another 1,000–2,000 IU to your dose as your receptors are less efficient.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-03-15",
+      "title": "Vitamin D at 18 ng/mL — what protocol to follow?",
+      "votes": 41,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_009",
+    "content": "Question (2024-06-10, 👍 55 votes): When is the best time to have sex when trying to conceive? My cycle is 30 days. FertiliQ shows my fertile window as Days 12–18.\n\nAccepted Answer: For a 30-day cycle with your fertile window Days 12–18, the highest-conception-probability timing is: Day 11, Day 13, Day 15 (every other day during the window). The top-priority day is the one just before your predicted LH surge (usually Day 13–14 for a 30-day cycle). If you're using an OPK, aim to have sex the day of the LH surge and the day after. Sperm live 3–5 days, so starting a day before the window ensures sperm are waiting for the egg. Don't stress about daily sex during the window — every-other-day is just as effective and maintains better sperm quality and reduces performance pressure.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-06-10",
+      "title": "Best timing for sex — 30-day cycle, fertile window Days 12-18",
+      "votes": 55,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_010",
+    "content": "Question (2024-04-02, 👍 38 votes): My partner was told he has low sperm motility (total motility 25%). What supplements should he take?\n\nAccepted Answer: 25% total motility is significantly below the WHO reference of >40%. Good news — sperm regenerate over approximately 72 days (one spermatogenesis cycle), so a targeted 3-month supplement protocol can meaningfully improve results. Evidence-based protocol for low motility: (1) CoQ10 ubiquinol 300–400 mg/day — sperm mitochondria in the mid-piece drive motility, and CoQ10 directly fuels this. (2) Zinc picolinate 25–30 mg/day — essential for sperm maturation. (3) Selenium 100–200 mcg/day — selenoprotein P is concentrated in testes and required for flagellar structure. (4) Vitamin C 1,000 mg/day + Vitamin E 400 IU/day — antioxidant protection against DNA damage. (5) L-carnitine 1–2 g/day — supports sperm energy metabolism. Retest after 3 months.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-04-02",
+      "title": "Low sperm motility 25% — what supplements help?",
+      "votes": 38,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_011",
+    "content": "Question (2024-08-20, 👍 44 votes): I've been trying to conceive for 8 months with no success. I'm 34. FertiliQ shows everything seems 'in range'. What should I check next?\n\nAccepted Answer: 8 months at 34 with in-range results — time to dig deeper. FertiliQ's escalation protocol for this scenario: (1) Check homocysteine — even with genetic and folate data, an elevated homocysteine (>10 µmol/L) is a red flag for methylation pathway dysfunction and is associated with recurrent implantation failure. (2) Get a full thyroid panel including TPO antibodies — subclinical hypothyroidism (TSH 2.5–4.5) and Hashimoto's are significantly associated with infertility even with 'normal' TSH. (3) Male factor: full semen analysis plus DNA fragmentation index (DFI) — if DFI >25%, this is a hidden cause of unexplained infertility not visible on standard SA. (4) Consider ERA (Endometrial Receptivity Analysis) if pursuing IVF. (5) At 34 after 8 months, specialist referral is appropriate — don't wait for the 12-month 'standard' guideline.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-08-20",
+      "title": "8 months TTC with in-range results — what to check next?",
+      "votes": 44,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_012",
+    "content": "Question (2024-09-05, 👍 28 votes): The FertiliQ app crashed when I tried to sync my Oura ring data. Error message says 'Wearable sync failed — invalid token'. How do I fix this?\n\nAccepted Answer: 'Invalid token' on Oura sync typically means your Oura API access token has expired (they expire every 7 days by default). Fix: Go to FertiliQ → Settings → Connected Wearables → Oura Ring → 'Reconnect'. This will prompt you to re-authorise FertiliQ in the Oura app. If the error persists after reconnecting: on your phone, uninstall and reinstall the FertiliQ app (data is cloud-saved), then reconnect Oura. Known issue in iOS 17+ — the Oura SDK has a token refresh bug that FertiliQ is working with Oura to resolve. Fix expected in next app update.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-09-05",
+      "title": "Oura ring sync error — invalid token fix",
+      "votes": 28,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_013",
+    "content": "Question (2024-02-28, 👍 33 votes): What foods should I eat during the follicular phase to support egg development?\n\nAccepted Answer: Follicular phase is when your eggs are being recruited and one dominant follicle is maturing — this is prime time to support that process nutritionally. Key foods: (1) Leafy greens daily (spinach, kale, rocket) — natural folate for DNA synthesis in developing follicles. (2) Eggs (2/day) — choline for methylation, plus all B vitamins and fat-soluble vitamins in the yolk. (3) Wild salmon 2–3x/week — EPA/DHA for granulosa cell membranes and anti-inflammatory prostaglandins. (4) Colourful vegetables (bell peppers, carrots, berries) — antioxidants to neutralise follicular oxidative stress. (5) Fermented foods (kimchi, kefir, yoghurt) — gut microbiome supports oestrogen metabolism. (6) Brazil nuts (1–2/day) — selenium. Avoid: heavy alcohol, processed foods, excessive caffeine (>200 mg/day associated with reduced follicular response).",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-02-28",
+      "title": "Follicular phase foods for egg development",
+      "votes": 33,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_014",
+    "content": "Question (2023-07-14, 👍 19 votes): What does it mean if my FertiliQ genetic report says I have 'high oxidative stress risk'? Is that bad?\n\nAccepted Answer: High oxidative stress risk in FertiliQ means you have variants in one or more genes involved in antioxidant defence — typically GPX1 (glutathione peroxidase), SOD2 (superoxide dismutase), or GSTM1 (glutathione S-transferase). These genes normally neutralise reactive oxygen species (ROS) that are produced as byproducts of normal metabolism. With reduced antioxidant gene efficiency, you're more susceptible to oxidative damage — particularly in metabolically demanding cells like eggs and sperm. This isn't catastrophic — it means antioxidant supplementation and diet become more important for you than for someone without these variants. Practical action: increase CoQ10 (400 mg), add NAC 600 mg twice daily, ensure Vitamin C and E through food and supplements, reduce alcohol, processed food and environmental toxin exposure.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2023-07-14",
+      "title": "High oxidative stress risk in genetic report — what does it mean?",
+      "votes": 19,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_015",
+    "content": "Question (2024-11-01, 👍 51 votes): I've heard conflicting things about how much folic acid vs methylfolate MTHFR carriers should take. Some old posts here say 400 mcg is fine, some say 800 mcg methylfolate. What's the actual current recommendation?\n\nAccepted Answer: I understand the confusion — FertiliQ actually changed this recommendation between versions! The 400 mcg folic acid advice in older posts (2022) was from FertiliQ v1.0 and reflected the standard preconception recommendation at the time. FertiliQ v2.1 (released January 2024) updated this specifically for MTHFR carriers: the current recommendation is 800 mcg 5-MTHF (methylfolate) for C677T homozygous carriers, and 400–800 mcg methylfolate for heterozygous carriers. Standard folic acid is no longer recommended for MTHFR variant carriers in the current guidelines. Always check the version tag on documentation — if it says v1.0 or is dated pre-2024, the folate recommendation may be the old 400 mcg one.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-11-01",
+      "title": "MTHFR folic acid vs methylfolate — current recommendation clarified",
+      "votes": 51,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_016",
+    "content": "Question (2024-10-15, 👍 37 votes): Should I be having sex every day during my fertile window to maximise chances?\n\nAccepted Answer: Counter-intuitively, every other day is generally as effective as daily and sometimes better. The reason: sperm require 48–72 hours to replenish in adequate numbers after ejaculation. Daily sex can reduce total sperm count and motility per ejaculate, especially if the baseline count is already borderline. Exception: if your partner has been assessed with a high sperm count and excellent motility (>60 million/mL, >50% progressive motility), daily sex during peak fertile days (the 48 hours before and including ovulation) is fine. The every-other-day approach also reduces performance pressure and fatigue, which can be a meaningful quality-of-life factor over months of trying.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-10-15",
+      "title": "Sex every day vs every other day during fertile window",
+      "votes": 37,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_017",
+    "content": "Question (2024-12-03, 👍 43 votes): My FertiliQ dashboard shows a 'methylation pathway concern' flag. What does this mean and what should I do?\n\nAccepted Answer: The methylation pathway concern flag is triggered when FertiliQ's algorithm detects a combination of factors: MTHFR variant present + homocysteine above 9 µmol/L + folate (RBC) below 800 nmol/L. This combination suggests your methylation cycle is running suboptimally. Methylation drives hundreds of reactions critical for fertility: DNA repair, gene expression, neurotransmitter synthesis, and detoxification. Priority actions: (1) Switch to methylfolate 800 mcg if not already (never standard folic acid with MTHFR). (2) Add methylcobalamin 1,000 mcg B12. (3) Add TMG (trimethylglycine) 500–1,000 mg/day — a methyl donor that helps reduce homocysteine independently. (4) Retest homocysteine after 8 weeks.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-12-03",
+      "title": "Methylation pathway concern flag — what to do?",
+      "votes": 43,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_018",
+    "content": "Question (2024-08-07, 👍 26 votes): I'm in the two-week wait (TWW). Is it OK to exercise?\n\nAccepted Answer: Yes, but keep it moderate. The luteal phase (which is what the TWW is) naturally calls for reduced intensity anyway due to progesterone's effects on energy. FertiliQ guidelines for the TWW: keep heart rate below 140 bpm, avoid sustained HIIT or heavy lifting, no hot yoga or saunas (elevated core temperature may affect implantation). Good TWW activities: walking, gentle yoga, Pilates, swimming at easy pace. There's no evidence that normal moderate exercise prevents implantation, so don't feel you need to be on bedrest. In fact, gentle movement supports blood flow to the uterus. Just avoid the kind of all-out sessions that significantly spike cortisol.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-08-07",
+      "title": "Exercise during the two-week wait — is it safe?",
+      "votes": 26,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_019",
+    "content": "Question (2023-05-22, 👍 15 votes): How do I read my genetic report — what does 'Clinical Impact Score 7' mean for my MTHFR result?\n\nAccepted Answer: The Clinical Impact Score (CIS) in FertiliQ runs from 0–10. A CIS of 7 for MTHFR means this variant is having a significant functional impact on your methylation pathway — it's near the high end of the scale. CIS 0–3: low functional impact, lifestyle support recommended. CIS 4–6: moderate impact, targeted supplementation recommended. CIS 7–9: high impact, specific therapeutic supplementation essential. CIS 10: severe impact, may warrant clinical methylation assessment. At CIS 7, the FertiliQ recommendation is that methylfolate 800 mcg + methylcobalamin B12 are non-optional for you, not just 'nice to have'. The scoring also factors in your biomarker context — if your homocysteine is elevated or RBC folate is low, the CIS will be on the higher end.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2023-05-22",
+      "title": "What does Clinical Impact Score 7 mean for MTHFR?",
+      "votes": 15,
+      "is_accepted": true
+    }
+  },
+  {
+    "id": "forum_020",
+    "content": "Question (2024-06-25, 👍 48 votes): Is there a bug with the FSH chart on the dashboard? My Day 3 FSH shows as 9.2 mIU/mL but it's graphed outside the green zone even though 9 is supposed to be normal.\n\nAccepted Answer: This is a known display bug in FertiliQ app version 3.1.0 (iOS and Android). The FSH chart is using a hardcoded population reference range (3–10 mIU/mL) for the green zone, but FertiliQ's fertility-optimised optimal range is 3–8 mIU/mL. So 9.2 is technically above the FertiliQ optimal range even though it's within the lab reference. Your result is not alarming — 9.2 is borderline but not pathological. The chart rendering bug is confirmed and will be corrected in v3.1.1. In the meantime, refer to the numeric value and the colour-coded bar in the Biomarker Details view, which uses the correct fertility-optimised thresholds.",
+    "metadata": {
+      "source_type": "forum",
+      "date": "2024-06-25",
+      "title": "FSH chart display bug — outside green zone at 9.2?",
+      "votes": 48,
+      "is_accepted": true
+    }
+  }
+]

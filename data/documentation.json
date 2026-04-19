@@ -1,0 +1,461 @@
+[
+  {
+    "id": "doc_parent_001",
+    "is_parent": true,
+    "content": "# FertiliQ Platform Overview\n\nFertiliQ is a precision preconception health platform combining genetic testing and real-time biomarker monitoring to deliver personalised fertility-optimisation plans. Unlike generic apps, FertiliQ interprets your genetic variants (MTHFR, COMT, VDR) alongside laboratory biomarkers (AMH, FSH, LH, Vitamin D, CoQ10, iron) to build a dynamic evidence-based programme tailored to your unique biology.\n\n## Core Features\n- Genetic variant interpretation with clinical significance scoring\n- Real-time biomarker dashboard with optimal-range visualisation\n- AI-driven supplement, nutrition and exercise recommendations\n- Cycle-phase-aware activity guidelines\n- Partner health integration for couples\n- Quarterly reports for healthcare providers\n\n## Philosophy\nTraditional fertility assessments capture a single hormone snapshot. FertiliQ takes a systems approach, analysing how your genes shape nutrient metabolism, hormone regulation and stress response, then translating that into actionable steps.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-01-15",
+      "title": "FertiliQ Platform Overview",
+      "version": "v2.1",
+      "parent_id": null
+    }
+  },
+  {
+    "id": "doc_child_001",
+    "is_parent": false,
+    "content": "## What is FertiliQ?\n\nFertiliQ combines direct-to-consumer genetic testing with lab biomarker integration to provide couples with a personalised preconception health roadmap. The platform covers nutrition, supplementation, exercise, sleep, stress management and sexual health — all calibrated to the user's specific genetic profile and current biomarker levels. FertiliQ is not a medical device; recommendations are evidence-based but should complement, not replace, clinical care.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-01-15",
+      "title": "What is FertiliQ?",
+      "version": "v2.1",
+      "parent_id": "doc_parent_001",
+      "parent_title": "FertiliQ Platform Overview"
+    }
+  },
+  {
+    "id": "doc_child_002",
+    "is_parent": false,
+    "content": "## Who is FertiliQ For?\n\nFertiliQ is designed for individuals and couples actively planning conception, those with unexplained infertility, women with irregular cycles, partners with sub-optimal semen analysis results, and anyone wanting to optimise preconception health before IVF or other assisted reproduction. The platform is particularly valuable for people who carry genetic variants known to influence nutrient metabolism — such as MTHFR, COMT, or VDR — because standard population-level advice may be inadequate for them.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-01-15",
+      "title": "Who is FertiliQ For?",
+      "version": "v2.1",
+      "parent_id": "doc_parent_001",
+      "parent_title": "FertiliQ Platform Overview"
+    }
+  },
+  {
+    "id": "doc_child_003",
+    "is_parent": false,
+    "content": "## Getting Started\n\n1. Complete your genetic test kit and mail it to our CLIA-certified lab.\n2. Upload or connect your biomarker data (supported labs: LabCorp, Quest, Everlywell, DUTCH hormone test).\n3. Complete the lifestyle questionnaire (diet, exercise, stress, sleep).\n4. Receive your personalised FertiliQ Score and action plan within 7–10 business days.\n5. Sync your wearable (Apple Watch, Oura, Garmin) for continuous cycle tracking.\n\nYour dashboard updates dynamically as new biomarker data is added. Recommendations are reviewed and recalibrated every 90 days.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-01-15",
+      "title": "Getting Started with FertiliQ",
+      "version": "v2.1",
+      "parent_id": "doc_parent_001",
+      "parent_title": "FertiliQ Platform Overview"
+    }
+  },
+  {
+    "id": "doc_parent_002",
+    "is_parent": true,
+    "content": "# Understanding Your Genetic Report\n\nFertiliQ analyses a targeted panel of fertility-relevant gene variants using single-nucleotide polymorphism (SNP) genotyping. Each variant is classified as wild-type (no impact), heterozygous (one altered copy) or homozygous (two altered copies). The clinical impact score (CIS) on a 0–10 scale summarises functional consequence. Variants analysed include: MTHFR C677T, MTHFR A1298C, COMT Val158Met, VDR BsmI, VDR TaqI, SHMT1 C1420T, and MTR A2756G, among others.\n\n## Reading the Report\nEach section details: the gene function, your specific genotype, functional impact, and tailored recommendations. Higher CIS does not mean infertility — it means targeted nutritional or lifestyle intervention will be most beneficial.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-02-01",
+      "title": "Understanding Your Genetic Report",
+      "version": "v2.1",
+      "parent_id": null
+    }
+  },
+  {
+    "id": "doc_child_004",
+    "is_parent": false,
+    "content": "## Interpreting MTHFR Variants\n\nMTHFR (methylenetetrahydrofolate reductase) is the most clinically significant variant in the FertiliQ panel. The enzyme converts dietary folate into 5-MTHF (methylfolate), the active form used in DNA synthesis, neurotransmitter production and methylation reactions critical to embryo development.\n\n**C677T heterozygous (CT):** ~30–40% reduction in MTHFR enzyme activity.\n**C677T homozygous (TT):** ~60–70% reduction — highest intervention priority.\n**A1298C heterozygous (AC):** ~20–30% reduction, primarily affects BH4 cofactor.\n**Compound heterozygous (C677T + A1298C):** Significant combined impact.\n\nFertiliQ v2.1 recommendation for C677T or compound heterozygous carriers: 800 mcg 5-MTHF (methylfolate) daily. Standard synthetic folic acid is not recommended because impaired MTHFR activity prevents its conversion to the active form.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-02-01",
+      "title": "Interpreting MTHFR Variants",
+      "version": "v2.1",
+      "parent_id": "doc_parent_002",
+      "parent_title": "Understanding Your Genetic Report"
+    }
+  },
+  {
+    "id": "doc_child_005",
+    "is_parent": false,
+    "content": "## Interpreting COMT Variants\n\nCOMT (catechol-O-methyltransferase) encodes an enzyme that breaks down catecholamines (dopamine, adrenaline, oestrogen metabolites). The Val158Met SNP (rs4680) is the primary variant assessed.\n\n**Val/Val (GG):** High COMT activity — faster catecholamine breakdown. Associated with lower oestrogen exposure and better tolerance of high-oestrogen states.\n**Val/Met (AG):** Intermediate activity.\n**Met/Met (AA):** Slow COMT — slower oestrogen clearance, potential for oestrogen dominance. FertiliQ recommends cruciferous vegetables (DIM), magnesium glycinate and limiting alcohol for Met/Met carriers.\n\nSlow COMT + high-oestrogen diet can amplify PMS, endometriosis risk and cycle irregularity. Recommendations are tailored accordingly.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-02-01",
+      "title": "Interpreting COMT Variants",
+      "version": "v2.1",
+      "parent_id": "doc_parent_002",
+      "parent_title": "Understanding Your Genetic Report"
+    }
+  },
+  {
+    "id": "doc_child_006",
+    "is_parent": false,
+    "content": "## Interpreting VDR Variants\n\nVDR (Vitamin D Receptor) variants affect how efficiently cells respond to Vitamin D, a hormone critical for immune tolerance, follicular development, sperm motility and implantation success.\n\n**BsmI (rs1544410):** Variants associated with reduced Vitamin D receptor sensitivity — carriers often need higher circulating 25(OH)D levels to achieve the same biological effect as non-carriers.\n**TaqI (rs731236):** Similarly modulates receptor efficiency.\n\nFertiliQ target for VDR variant carriers: 25(OH)D serum level 50–70 ng/mL. Non-carriers: 40–60 ng/mL is sufficient. VDR variant carriers should expect to need 4,000–6,000 IU Vitamin D3 daily to reach and maintain optimal levels, compared to 2,000–4,000 IU for non-carriers.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-02-01",
+      "title": "Interpreting VDR Variants",
+      "version": "v2.1",
+      "parent_id": "doc_parent_002",
+      "parent_title": "Understanding Your Genetic Report"
+    }
+  },
+  {
+    "id": "doc_parent_003",
+    "is_parent": true,
+    "content": "# Biomarker Reference Ranges\n\nFertiliQ uses fertility-optimised reference ranges that differ from standard laboratory ranges. Standard lab ranges define 'normal' for the general population; FertiliQ ranges define 'optimal' for preconception health. Having a result within the lab reference range does not guarantee optimal fertility. Always interpret biomarkers in context of your genetic profile and clinical history.\n\nKey biomarkers tracked: AMH, FSH, LH, Oestradiol (E2), Progesterone, Prolactin, Testosterone (total + free), Vitamin D (25-OH), Ferritin, Iron saturation, Folate (RBC), Homocysteine, CoQ10, Zinc, Selenium, Thyroid panel (TSH, fT4, fT3).",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-02-15",
+      "title": "Biomarker Reference Ranges",
+      "version": "v2.1",
+      "parent_id": null
+    }
+  },
+  {
+    "id": "doc_child_007",
+    "is_parent": false,
+    "content": "## AMH and Ovarian Reserve\n\nAnti-Müllerian Hormone (AMH) is produced by small antral follicles and reflects ovarian reserve — the quantity of remaining eggs. It is not strongly influenced by the menstrual cycle phase and can be measured on any day.\n\n**FertiliQ Optimal Ranges (pmol/L):**\n- Age <35: 15–48 pmol/L (optimal above 25)\n- Age 35–39: 7–25 pmol/L (optimal above 15)\n- Age 40–44: 2–10 pmol/L (optimal above 5)\n\n**AMH < 5 pmol/L** at any age indicates diminished ovarian reserve (DOR) and warrants prompt specialist consultation. AMH alone does not predict egg quality — a woman with low AMH can still produce high-quality embryos.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-02-15",
+      "title": "AMH and Ovarian Reserve",
+      "version": "v2.1",
+      "parent_id": "doc_parent_003",
+      "parent_title": "Biomarker Reference Ranges"
+    }
+  },
+  {
+    "id": "doc_child_008",
+    "is_parent": false,
+    "content": "## FSH, LH and Oestradiol\n\n**FSH (Follicle-Stimulating Hormone)** — Measured on Day 2–3 of the menstrual cycle.\nFertiliQ Optimal: 3–8 mIU/mL. FSH >10 suggests the pituitary is working harder to recruit follicles (possible diminished reserve). FSH >15 mIU/mL at baseline is clinically significant.\n\n**LH (Luteinising Hormone)** — Optimal Day 2–3 baseline: 2–9 mIU/mL. Elevated LH (>10 on Day 2–3) in combination with FSH is associated with PCOS. LH surge (>20 mIU/mL) signals ovulation within 24–36 hours.\n\n**Oestradiol (E2)** — Day 2–3 baseline: <50 pg/mL optimal. Elevated baseline E2 can suppress FSH and masks a true FSH value — always interpret FSH alongside E2.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-02-15",
+      "title": "FSH, LH and Oestradiol Reference Ranges",
+      "version": "v2.1",
+      "parent_id": "doc_parent_003",
+      "parent_title": "Biomarker Reference Ranges"
+    }
+  },
+  {
+    "id": "doc_child_009",
+    "is_parent": false,
+    "content": "## Vitamin D, Iron and CoQ10 Reference Ranges\n\n**Vitamin D — 25(OH)D:**\nFertiliQ Optimal: 50–70 ng/mL (125–175 nmol/L). Values below 30 ng/mL are deficient; 30–50 ng/mL are insufficient for fertility optimisation. Target 60 ng/mL for implantation support. VDR variant carriers need upper end.\n\n**Ferritin (iron stores):**\nFertiliQ Optimal: 50–100 ng/mL. Women with values <30 ng/mL often experience fatigue, hair loss and anovulation. Ferritin <15 ng/mL indicates iron-deficiency anaemia requiring supplementation.\n\n**CoQ10 (Coenzyme Q10):**\nPlasma CoQ10 optimal for fertility: 0.8–1.2 µmol/L. CoQ10 supports mitochondrial ATP production in oocytes and sperm. Levels typically decline with age and statin use.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-02-15",
+      "title": "Vitamin D, Iron and CoQ10 Reference Ranges",
+      "version": "v2.1",
+      "parent_id": "doc_parent_003",
+      "parent_title": "Biomarker Reference Ranges"
+    }
+  },
+  {
+    "id": "doc_parent_004",
+    "is_parent": true,
+    "content": "# Nutrition Recommendations by Genetic Profile\n\nFertiliQ integrates your genetic variants with biomarker levels to generate precision nutrition guidance. General fertility diet advice applies to all users; genetic-profile-specific additions are layered on top based on your variant results.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-03-01",
+      "title": "Nutrition Recommendations by Genetic Profile",
+      "version": "v2.1",
+      "parent_id": null
+    }
+  },
+  {
+    "id": "doc_child_010",
+    "is_parent": false,
+    "content": "## Foundation Fertility Diet\n\nApplicable to all FertiliQ users regardless of genetic profile:\n- **Whole foods priority:** 7–9 servings of vegetables/fruit daily, prioritising leafy greens (spinach, kale, rocket) for natural folate.\n- **Healthy fats:** Omega-3 rich foods (wild salmon, sardines, walnuts, flaxseed) to support prostaglandin balance and embryo cell membranes. Target 2g EPA+DHA daily.\n- **Reduce ultra-processed foods:** Associated with elevated inflammatory markers and oxidative stress, which impair egg and sperm quality.\n- **Limit alcohol:** Even moderate alcohol consumption (>3 units/week) is associated with reduced implantation rates and increased miscarriage risk.\n- **Mediterranean pattern overall:** Consistently associated with better IVF outcomes in women and improved sperm parameters in men.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-03-01",
+      "title": "Foundation Fertility Diet",
+      "version": "v2.1",
+      "parent_id": "doc_parent_004",
+      "parent_title": "Nutrition Recommendations by Genetic Profile"
+    }
+  },
+  {
+    "id": "doc_child_011",
+    "is_parent": false,
+    "content": "## Nutrition for MTHFR Variant Carriers\n\nIf your report shows MTHFR C677T or A1298C variants, standard folic acid supplementation is insufficient — your enzyme cannot efficiently convert synthetic folic acid to the biologically active 5-MTHF (methylfolate). FertiliQ v2.1 dietary protocol for MTHFR carriers:\n\n- **Prioritise food-form folate:** lentils, edamame, asparagus, beetroot, avocado — these contain natural folates already in a partially bioavailable form.\n- **Avoid synthetic folic acid fortification where possible** (many cereals and breads) — unmetabolised folic acid can accumulate and potentially mask B12 deficiency.\n- **Increase choline intake:** Eggs (2/day) provide choline, an alternative methyl donor that bypasses the MTHFR bottleneck via the PEMT pathway.\n- **B12-rich foods:** Methylcobalamin (the active B12 form) from animal proteins, especially liver and shellfish, is essential alongside methylfolate for the methylation cycle to function optimally.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-03-01",
+      "title": "Nutrition for MTHFR Variant Carriers",
+      "version": "v2.1",
+      "parent_id": "doc_parent_004",
+      "parent_title": "Nutrition Recommendations by Genetic Profile"
+    }
+  },
+  {
+    "id": "doc_child_012",
+    "is_parent": false,
+    "content": "## Nutrition for COMT and VDR Variant Carriers\n\n**Slow COMT (Met/Met):**\nFocus on oestrogen clearance: cruciferous vegetables (broccoli, Brussels sprouts, cauliflower) provide indole-3-carbinol (I3C) and DIM which upregulate healthy 2-OH oestrogen metabolite pathways. Limit alcohol, reduce red meat, increase fibre for oestrogen enterohepatic recirculation. Avoid high-dose catechol supplements (green tea extract, high-dose resveratrol) which compete with COMT.\n\n**VDR Variants:**\nPrioritise Vitamin D-rich foods: oily fish (salmon, mackerel), egg yolks, liver. Ensure adequate magnesium (needed for Vitamin D activation): almonds, dark chocolate, pumpkin seeds. Vitamin K2 (natto, hard cheeses) prevents Vitamin D toxicity at higher supplementation doses and directs calcium appropriately.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-03-01",
+      "title": "Nutrition for COMT and VDR Variant Carriers",
+      "version": "v2.1",
+      "parent_id": "doc_parent_004",
+      "parent_title": "Nutrition Recommendations by Genetic Profile"
+    }
+  },
+  {
+    "id": "doc_parent_005",
+    "is_parent": true,
+    "content": "# Exercise Guidelines by Cycle Phase and Biomarker Level\n\nExercise profoundly influences fertility through hormonal signalling, insulin sensitivity, oxidative stress and body composition. FertiliQ recommends cycle-phase aligned exercise to maximise hormonal benefit and minimise unintended suppression of reproductive hormones. Intensity must be calibrated to current biomarker levels — especially AMH, cortisol and FSH — to avoid overtraining effects.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-03-15",
+      "title": "Exercise Guidelines by Cycle Phase and Biomarker Level",
+      "version": "v2.1",
+      "parent_id": null
+    }
+  },
+  {
+    "id": "doc_child_013",
+    "is_parent": false,
+    "content": "## Menstrual Phase (Days 1–5): Rest and Gentle Movement\n\nHormonal context: oestrogen and progesterone at their lowest. Prostaglandin-driven uterine contractions may cause discomfort.\n\n**Recommended activity:** Yin yoga, gentle walking (20–30 min), swimming at low intensity. Avoid high-impact HIIT and heavy resistance training during Days 1–2.\n\n**Biomarker alert:** If ferritin <30 ng/mL, keep sessions under 30 minutes and monitor for dizziness. Iron deficiency impairs oxygen delivery and energy production, making sustained exercise difficult and counterproductive.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-03-15",
+      "title": "Exercise in Menstrual Phase",
+      "version": "v2.1",
+      "parent_id": "doc_parent_005",
+      "parent_title": "Exercise Guidelines by Cycle Phase and Biomarker Level"
+    }
+  },
+  {
+    "id": "doc_child_014",
+    "is_parent": false,
+    "content": "## Follicular Phase (Days 6–13): Peak Performance Window\n\nHormonal context: rising oestrogen and FSH drive follicular recruitment. Energy levels peak as oestrogen climbs. This is your highest-performance window.\n\n**Recommended activity:** Strength training (progressive overload, 3–4x/week), high-intensity cardio intervals (2x/week), dance, cycling. Oestrogen improves muscle protein synthesis and pain tolerance during this phase.\n\n**Goal:** Build muscle mass and insulin sensitivity, which improves ovarian function and egg quality. Aim for 150–180 min moderate-intensity or 75–90 min vigorous activity across the follicular phase.\n\n**Caution:** If AMH < 7 pmol/L or FSH > 10 mIU/mL, reduce vigorous cardio (>80% HRmax) to <60 min/week to avoid cortisol-mediated gonadotropin suppression.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-03-15",
+      "title": "Exercise in Follicular Phase",
+      "version": "v2.1",
+      "parent_id": "doc_parent_005",
+      "parent_title": "Exercise Guidelines by Cycle Phase and Biomarker Level"
+    }
+  },
+  {
+    "id": "doc_child_015",
+    "is_parent": false,
+    "content": "## Luteal Phase (Days 15–28): Recovery Focus\n\nHormonal context: progesterone dominates. Body temperature rises 0.2–0.5°C. Progesterone has a mild catabolic effect, and energy for high-intensity work is reduced.\n\n**Recommended activity:** Pilates, yoga (not hot yoga), moderate resistance training (reduce load by 10–15% vs follicular phase), long walks. Avoid very high-intensity sessions in Days 15–20 when implantation window is open.\n\n**If trying to conceive (TWW — two-week wait):** After ovulation, keep heart rate below 140 bpm. Sustained high-intensity exercise raises core temperature and cortisol, both of which may impair implantation. Light activity remains beneficial for blood flow and stress management.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-03-15",
+      "title": "Exercise in Luteal Phase",
+      "version": "v2.1",
+      "parent_id": "doc_parent_005",
+      "parent_title": "Exercise Guidelines by Cycle Phase and Biomarker Level"
+    }
+  },
+  {
+    "id": "doc_parent_006",
+    "is_parent": true,
+    "content": "# FertiliQ Platform API Documentation\n\nThe FertiliQ REST API (v2) allows third-party health apps, wearables and clinical systems to read and write biomarker data, retrieve genetic report summaries and push notification triggers. Authentication uses OAuth 2.0 with JWT tokens. Base URL: https://api.fertiliq.com/v2/\n\nRate limits: 1,000 requests/hour per OAuth client. Biomarker writes are idempotent — duplicate submissions with identical timestamps are deduplicated.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-04-01",
+      "title": "FertiliQ Platform API Documentation",
+      "version": "v2.1",
+      "parent_id": null
+    }
+  },
+  {
+    "id": "doc_child_016",
+    "is_parent": false,
+    "content": "## Biomarker Sync Endpoints\n\n**POST /biomarkers/sync**\nSubmits one or more biomarker readings. Payload (JSON):\n```json\n{\n  \"user_id\": \"usr_abc123\",\n  \"readings\": [\n    {\"biomarker\": \"amh\", \"value\": 18.3, \"unit\": \"pmol/L\", \"date\": \"2024-03-20\", \"lab\": \"LabCorp\"}\n  ]\n}\n```\nReturns: 200 with sync_id on success; 422 if unit mismatch or invalid biomarker code. Supported biomarker codes: amh, fsh, lh, e2, progesterone, testosterone_total, testosterone_free, vitamin_d, ferritin, folate_rbc, homocysteine, coq10, tsh, ft4.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-04-01",
+      "title": "Biomarker Sync API Endpoint",
+      "version": "v2.1",
+      "parent_id": "doc_parent_006",
+      "parent_title": "FertiliQ Platform API Documentation"
+    }
+  },
+  {
+    "id": "doc_child_017",
+    "is_parent": false,
+    "content": "## Genetic Report API\n\n**GET /genetic/summary/{user_id}**\nReturns variant summary for a user. Response includes:\n- `variants`: list of analysed SNPs with genotype and CIS score\n- `primary_pathways`: ranked list of affected biological pathways\n- `recommendations_active`: count of currently active genetic-based recommendations\n\n**GET /genetic/report/{user_id}/pdf**\nStreams a signed PDF of the full genetic report (valid for 15 minutes). Requires `report:read` OAuth scope.\n\n**Webhook:** FertiliQ can push to your endpoint when a new genetic result is processed. Register via POST /webhooks with event type `genetic.result.ready`.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-04-01",
+      "title": "Genetic Report API",
+      "version": "v2.1",
+      "parent_id": "doc_parent_006",
+      "parent_title": "FertiliQ Platform API Documentation"
+    }
+  },
+  {
+    "id": "doc_child_018",
+    "is_parent": false,
+    "content": "## Troubleshooting API Sync Issues\n\n**Error 422 — Unit Mismatch:** Ensure Vitamin D is submitted as ng/mL (not nmol/L). To convert: ng/mL × 2.496 = nmol/L. Submit in ng/mL to the API.\n\n**Error 409 — Duplicate Reading:** A reading with the same biomarker + date already exists. This is expected behaviour — the API is idempotent. No action required.\n\n**Data not appearing in dashboard:** After a successful sync, allow 5–10 minutes for recommendation recalculation. If data is missing after 30 minutes, check that your OAuth token has the `biomarker:write` scope. Token refresh required every 24 hours.\n\n**LabCorp auto-sync fails:** This usually indicates your LabCorp Patient Portal credentials have changed. Re-authorise via Settings → Connected Labs → LabCorp.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-04-01",
+      "title": "Troubleshooting API Sync Issues",
+      "version": "v2.1",
+      "parent_id": "doc_parent_006",
+      "parent_title": "FertiliQ Platform API Documentation"
+    }
+  },
+  {
+    "id": "doc_parent_007",
+    "is_parent": true,
+    "content": "# Supplement Dosing Guidelines v2.1 (Updated January 2024)\n\nFertiliQ v2.1 supplement guidelines reflect the latest peer-reviewed evidence and supersede all v1.0 recommendations. Significant update in this version: folate protocol for MTHFR variant carriers revised from standard folic acid to active methylfolate (5-MTHF) based on methylation pathway research published 2022–2023.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-01-10",
+      "title": "Supplement Dosing Guidelines v2.1",
+      "version": "v2.1",
+      "parent_id": null
+    }
+  },
+  {
+    "id": "doc_child_019",
+    "is_parent": false,
+    "content": "## Folate / Methylfolate Dosing (v2.1 — Current)\n\n**For MTHFR wild-type (no variants):** 400 mcg standard folic acid or methylfolate daily. Either form is appropriate as MTHFR enzyme is functional.\n\n**For MTHFR C677T heterozygous (CT):** 400–800 mcg 5-MTHF (methylfolate) daily. Standard folic acid is NOT recommended — reduced enzyme activity means conversion to active form is impaired, and unmetabolised folic acid accumulates.\n\n**For MTHFR C677T homozygous (TT) or compound heterozygous (C677T + A1298C):** 800 mcg 5-MTHF (methylfolate) daily is the FertiliQ v2.1 recommendation. This is a critical update from the v1.0 guideline of 400 mcg standard folic acid. Methylfolate bypasses the impaired MTHFR conversion step entirely.\n\nAlways pair methylfolate with methylcobalamin (1,000 mcg B12) to support the methylation cycle completely. Trimethylglycine (TMG, 500 mg) may be added if homocysteine remains elevated (>10 µmol/L) after 3 months.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-01-10",
+      "title": "Folate/Methylfolate Dosing for MTHFR Variants (v2.1)",
+      "version": "v2.1",
+      "parent_id": "doc_parent_007",
+      "parent_title": "Supplement Dosing Guidelines v2.1"
+    }
+  },
+  {
+    "id": "doc_child_020",
+    "is_parent": false,
+    "content": "## CoQ10 Dosing Guidelines (v2.1 — Current)\n\nCoenzyme Q10 (ubiquinol form preferred for bioavailability) supports mitochondrial energy production in oocytes and sperm. Research since 2022 has significantly refined dosing recommendations.\n\n**Women under 35:** 200–400 mg/day ubiquinol.\n**Women 35–39:** 400 mg/day ubiquinol as standard starting dose.\n**Women 40+:** 400–600 mg/day ubiquinol. Higher doses supported by 2023 RCT data showing improved oocyte maturation rates with 600 mg vs 200 mg in this age group.\n\nTake with meals containing fat for best absorption. Effects on oocyte quality take 90–120 days (one egg maturation cycle) to manifest — begin at least 3 months before IVF retrieval or planned conception.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-01-10",
+      "title": "CoQ10 Dosing Guidelines (v2.1)",
+      "version": "v2.1",
+      "parent_id": "doc_parent_007",
+      "parent_title": "Supplement Dosing Guidelines v2.1"
+    }
+  },
+  {
+    "id": "doc_child_021",
+    "is_parent": false,
+    "content": "## Vitamin D, Iron and Zinc Dosing (v2.1)\n\n**Vitamin D3:**\n- Baseline 25(OH)D 20–30 ng/mL: Start 4,000 IU/day with K2 (100 mcg MK-7).\n- Baseline <20 ng/mL: 5,000 IU/day for 12 weeks, then retest.\n- VDR variant carriers: add 1,000 IU to above doses. Retest every 12 weeks.\n\n**Iron (Ferritin <30 ng/mL):**\nIron bisglycinate 25–50 mg/day with 200 mg Vitamin C (enhances absorption). Do not take with calcium or within 2 hours of thyroid medication. Recheck ferritin after 8 weeks.\n\n**Zinc (male fertility):**\nZinc picolinate 15–30 mg/day for men with sub-optimal sperm parameters or low free testosterone. Do not exceed 40 mg/day — zinc competes with copper.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-01-10",
+      "title": "Vitamin D, Iron and Zinc Dosing",
+      "version": "v2.1",
+      "parent_id": "doc_parent_007",
+      "parent_title": "Supplement Dosing Guidelines v2.1"
+    }
+  },
+  {
+    "id": "doc_parent_008",
+    "is_parent": true,
+    "content": "# Supplement Dosing Guidelines v1.0 (September 2022)\n\nNOTICE: This is the archived v1.0 documentation. Current guidelines are in v2.1. Some recommendations in this document have been superseded. Please refer to the v2.1 supplement guidelines for current protocols.\n\nFertiliQ v1.0 supplement recommendations were developed from evidence available as of mid-2022. Folic acid recommendations in this version apply a standard-dose protocol across all MTHFR genotypes.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2022-09-01",
+      "title": "Supplement Dosing Guidelines v1.0 (Legacy)",
+      "version": "v1.0",
+      "parent_id": null
+    }
+  },
+  {
+    "id": "doc_child_022",
+    "is_parent": false,
+    "content": "## Folate Dosing (v1.0 — Legacy, Superseded)\n\nFertiliQ v1.0 Folic Acid Recommendation:\n\nAll users planning conception, including those with MTHFR C677T or A1298C variants, are recommended to take 400 mcg of folic acid daily, consistent with standard preconception guidelines. This is the CDC-recommended dose for neural tube defect prevention.\n\n**Note:** At the time of v1.0 release, FertiliQ's MTHFR-specific methylfolate protocol had not yet been developed. The v1.0 recommendation of 400 mcg standard folic acid for MTHFR variant carriers has been SUPERSEDED in v2.1 (2024), which recommends 800 mcg 5-MTHF (methylfolate) for C677T carriers. Refer to v2.1 docs.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2022-09-01",
+      "title": "Folate Dosing for MTHFR Variants (v1.0 — Legacy)",
+      "version": "v1.0",
+      "parent_id": "doc_parent_008",
+      "parent_title": "Supplement Dosing Guidelines v1.0 (Legacy)"
+    }
+  },
+  {
+    "id": "doc_child_023",
+    "is_parent": false,
+    "content": "## CoQ10 Dosing (v1.0 — Legacy)\n\nFertiliQ v1.0 CoQ10 Recommendation:\n\nCoQ10 supplementation at 200 mg/day (ubiquinone form) is recommended for women over 35 looking to support egg quality. This dose was selected based on evidence available in 2022 demonstrating mitochondrial benefits at this level.\n\nNote: Subsequent research (2023–2024) has supported higher doses of 400–600 mg/day ubiquinol for women over 35 and 40, and FertiliQ v2.1 guidelines reflect this updated evidence. The 200 mg recommendation in v1.0 is now considered the minimum effective dose rather than the optimal dose.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2022-09-01",
+      "title": "CoQ10 Dosing (v1.0 — Legacy)",
+      "version": "v1.0",
+      "parent_id": "doc_parent_008",
+      "parent_title": "Supplement Dosing Guidelines v1.0 (Legacy)"
+    }
+  },
+  {
+    "id": "doc_parent_009",
+    "is_parent": true,
+    "content": "# Sexual Health and Conception Timing\n\nOptimising conception timing requires understanding the fertile window — the days in the menstrual cycle when intercourse is most likely to result in pregnancy. Sperm survive 3–5 days in the female reproductive tract; the egg is viable for 12–24 hours after ovulation. The fertile window is approximately Days 10–17 of a 28-day cycle, but varies significantly between individuals and cycles.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-03-20",
+      "title": "Sexual Health and Conception Timing",
+      "version": "v2.1",
+      "parent_id": null
+    }
+  },
+  {
+    "id": "doc_child_024",
+    "is_parent": false,
+    "content": "## Identifying the Fertile Window\n\nFertiliQ integrates multiple signals to identify your fertile window with high precision:\n\n1. **LH surge detection:** LH peaks 24–36 hours before ovulation. FertiliQ analyses daily LH data from urine-based OPKs or blood tests synced via the API.\n2. **Basal Body Temperature (BBT):** Temperature rises 0.2–0.5°C after ovulation, confirming it has occurred. Connect your BBT thermometer or Oura ring for automatic tracking.\n3. **Cervical mucus pattern:** FertiliQ's cycle journal allows logging of cervical mucus consistency. Egg-white cervical mucus (EWCM) indicates peak fertility.\n4. **AMH-adjusted window:** Women with very high AMH (e.g. PCOS) may have longer, irregular cycles — FertiliQ adjusts fertile window predictions accordingly.\n\n**Timing strategy:** For natural conception, aim for intercourse every 1–2 days from Days 10–17, with priority on the 2 days preceding the LH surge.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-03-20",
+      "title": "Identifying the Fertile Window",
+      "version": "v2.1",
+      "parent_id": "doc_parent_009",
+      "parent_title": "Sexual Health and Conception Timing"
+    }
+  },
+  {
+    "id": "doc_child_025",
+    "is_parent": false,
+    "content": "## Sexual Health and Libido Across the Cycle\n\nUnderstanding natural fluctuations in libido helps couples align intimacy with the fertile window without creating performance pressure.\n\n**Follicular phase (Days 6–13):** Rising oestrogen elevates mood, energy and libido. Testosterone also rises toward ovulation — this is the natural peak of sexual desire for most women.\n\n**Periovulatory (Days 12–16):** Libido peaks with the LH surge. Oestrogen reaches its cycle maximum. Pheromonal signalling may also intensify mutual attraction.\n\n**Luteal phase (Days 15–28):** Progesterone dominates. Many women experience reduced libido, especially Days 21–28. This is normal and hormonally driven. FertiliQ does not recommend forcing intercourse during this phase — fertilisation cannot occur post-ovulation.\n\nFor men: sperm quality is consistent across the partner's cycle but improves with 2–3 day abstinence before the fertile window to optimise volume and motility.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-03-20",
+      "title": "Sexual Health and Libido Across the Cycle",
+      "version": "v2.1",
+      "parent_id": "doc_parent_009",
+      "parent_title": "Sexual Health and Conception Timing"
+    }
+  },
+  {
+    "id": "doc_child_026",
+    "is_parent": false,
+    "content": "## Oxidative Stress and Sperm Quality\n\nYour genetic report may flag elevated oxidative stress risk based on variants in GPX1, SOD2, NQO1 or GSTM1 (glutathione pathway genes). Oxidative stress damages DNA integrity in both sperm and eggs.\n\n**High oxidative stress risk profile interventions:**\n- Astaxanthin 4–8 mg/day (powerful antioxidant with specific male fertility data)\n- Vitamin E (mixed tocopherols) 200–400 IU/day\n- NAC (N-acetylcysteine) 600 mg twice daily to boost glutathione\n- CoQ10 (ubiquinol) 300–400 mg/day — dual antioxidant and mitochondrial support\n- Reduce heat exposure to testes: avoid hot baths, saunas and laptop-on-lap use\n\nFor men with elevated DNA fragmentation index (DFI >25%), a 90-day antioxidant protocol can meaningfully reduce DFI before IVF/ICSI.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-03-20",
+      "title": "Oxidative Stress Risk and Fertility",
+      "version": "v2.1",
+      "parent_id": "doc_parent_009",
+      "parent_title": "Sexual Health and Conception Timing"
+    }
+  },
+  {
+    "id": "doc_child_027",
+    "is_parent": false,
+    "content": "## When to Escalate: 6+ Months Without Conception\n\nFertiliQ recommends the following investigation roadmap for couples who have been trying for 6 months (age <35) or 3 months (age 35+) without success:\n\n**Step 1 — Biomarker Panel Review:**\nEnsure AMH, FSH (Day 2–3), antral follicle count (AFC via ultrasound), thyroid panel, prolactin and homocysteine are within optimal ranges. Recheck any previously borderline values.\n\n**Step 2 — Male Factor Evaluation:**\nFull semen analysis: volume, concentration, motility (total + progressive), morphology (Kruger strict criteria), and DNA fragmentation index (DFI).\n\n**Step 3 — Structural Investigation:**\nHysterosalpingogram (HSG) to assess fallopian tube patency and uterine cavity.\n\n**Step 4 — Specialist Referral:**\nIf any Step 1–3 findings are abnormal, a reproductive endocrinologist consultation is recommended. FertiliQ generates a specialist-ready summary report to bring to your appointment.",
+    "metadata": {
+      "source_type": "documentation",
+      "date": "2024-03-20",
+      "title": "Investigation Roadmap After 6+ Months",
+      "version": "v2.1",
+      "parent_id": "doc_parent_009",
+      "parent_title": "Sexual Health and Conception Timing"
+    }
+  }
+]
